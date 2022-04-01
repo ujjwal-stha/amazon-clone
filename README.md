@@ -8,7 +8,7 @@ This is a ReactJs-based clone of the Amazon Shopping Site. We can add your items
 
 # Features
 
-- User Authentication(with Redux and Fireauth)
+- User Authentication(with Context API and Fireauth)
 - Sign In and Sign Out functionality
 - Add to cart functionality
 - Remove from cart
@@ -19,9 +19,13 @@ This is a ReactJs-based clone of the Amazon Shopping Site. We can add your items
 - React Hooks
 - Redux
 - React Router
-- Stripe payment
+- React-Context-API
+- Stripe payment (Stripe-js)
 - Axios
 - Firebase Auth
+- Node JS
+- Express / cors
+- Firebase Cloud Function
 
 # Platform
 
@@ -39,22 +43,22 @@ Go into the repository
 
 # Install dependencies
 
-- For Front-end
+- For Front-end:
   npm install
 
-- For Back-End
+- For Back-End:
   cd ./functions
   npm install
 
 # Run app
 
-- For Front-End
+- For Front-End:
   npm run start
 
--For Back-End
-firebase emulators:start
+- For Back-End:
+  firebase emulators:start
 
-# Stripe Payment SetUp
+# Stripe Payment Setup
 
 - Create stripe Test API keys and modify the Publishable key in the stripePromise variable in the App.js file, as well as the Secret key in the stripe variable in./functions/index.js.
 
